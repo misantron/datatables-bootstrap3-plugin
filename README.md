@@ -1,4 +1,4 @@
 datatables-bootstrap3-plugin
 ============================
 
-DataTables and Bootstrap 3 integration plugin
+jQuery DataTables plugin and Bootstrap 3 integration
