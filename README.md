@@ -4,10 +4,10 @@ jQuery DataTables plugin and Bootstrap 3 integration.
 
 Installation
 ---------------------------
-You can easy install plugin via Bower. Just add it to your application bower config and execute the command in console:
+You can easy install plugin using Bower:
 
 ```
-/path/to/bower update
+bower install datatables-bootstrap3-plugin
 ```
 
 Or you can copy and include JS and CSS files directly to your HTML page:
