@@ -19,7 +19,8 @@ Or you can copy and include JS and CSS files directly to your HTML page:
 
 Code dependencies:
 
-* Bootstrap 3.* (include Font-Awesome)
+* Bootstrap 3.*
+* Font Awesome 4.*
 * jQuery DataTables plugin 1.10.*
 
 Fork changes
