@@ -1,14 +1,16 @@
 {
   "name": "datatables-bootstrap3-plugin",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": [
     "media/css/datatables-bootstrap3.css",
+    "media/css/datatables-bootstrap3.min.css",
     "media/css/datatables-bootstrap3.less",
-    "media/js/datatables-bootstrap3.js"
+    "media/js/datatables-bootstrap3.js",
+    "media/js/datatables-bootstrap3.min.js"
   ],
   "dependencies": {
     "bootstrap": "3.3.x",
-    "components-font-awesome": "4.2.x",
+    "font-awesome": "4.3.x",
     "datatables": "1.10.x"
   },
   "description": "jQuery DataTables plugin and Bootstrap 3 integration",
@@ -22,6 +24,7 @@
   "ignore": [
     ".gitignore",
     "example",
+    "bower_components",
     "README.md"
   ]
 }
