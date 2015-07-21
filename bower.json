@@ -9,9 +9,9 @@
     "media/js/datatables-bootstrap3.min.js"
   ],
   "dependencies": {
-    "bootstrap": "3.3.x",
-    "font-awesome": "4.3.x",
-    "datatables": "1.10.x"
+    "bootstrap": "~3.3",
+    "font-awesome": "~4.3",
+    "datatables": "~1.10"
   },
   "description": "jQuery DataTables plugin and Bootstrap 3 integration.",
   "license": "MIT",

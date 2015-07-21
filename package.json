@@ -19,9 +19,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "3.3.x",
-    "font-awesome": "4.3.x",
-    "datatables": "1.10.x"
+    "bootstrap": "~3.3",
+    "font-awesome": "~4.3",
+    "datatables": "~1.10",
+    "jquery": "~1.11"
   },
   "engines": {
     "node": ">=0.10.*"
