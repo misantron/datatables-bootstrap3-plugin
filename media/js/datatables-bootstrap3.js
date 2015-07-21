@@ -168,13 +168,13 @@
     }; // /factory
 
 
-// Define as an AMD module if possible
     if ( typeof define === 'function' && define.amd ) {
+        // Define as an AMD module if possible
         define( ['jquery', 'datatables'], factory );
     }
     else if ( typeof exports === 'object' ) {
         // Node/CommonJS
-        factory( require('jquery'), require('datatables') );
+        module.exports = factory( require('jquery'), require('datatables') );
     }
     else if ( jQuery ) {
         // Otherwise simply initialise as normal, stopping multiple evaluation
