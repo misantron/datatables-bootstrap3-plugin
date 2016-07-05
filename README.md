@@ -8,9 +8,9 @@ jQuery DataTables plugin and Bootstrap 3 integration.
 
 ## Installing
 
-**NPM**  `npm i datatables-bootstrap3-plugin`
+**NPM**  `npm install --save datatables-bootstrap3-plugin`
 
-**Bower**  `bower install datatables-bootstrap3-plugin`
+**Bower**  `bower install --save datatables-bootstrap3-plugin`
 
 Include library and style files directly to your HTML page:
 
@@ -21,9 +21,10 @@ Include library and style files directly to your HTML page:
 
 ## External dependencies:
 
-* Bootstrap 3.*
+* Bootstrap 3.3.*
 * Font Awesome 4.*
 * jQuery DataTables 1.10.*
+* jQuery 1.*
 
 ## Fork changes
 

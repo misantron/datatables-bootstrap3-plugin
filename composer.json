@@ -1,0 +1,14 @@
+{
+  "name": "misantron/datatables-bootstrap3-plugin",
+  "description": "DataTables jQuery plugin and Bootstrap 3 integration plugin",
+  "keywords": ["datatables", "bootstrap", "plugin", "javascript"],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/misantron/datatables-bootstrap3-plugin",
+  "authors": [
+    {
+      "name": "Alexandr Ivanov",
+      "email": "misantron@gmail.com"
+    }
+  ]
+}

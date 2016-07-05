@@ -10,11 +10,19 @@
     }
     else if ( typeof exports === 'object' ) {
         // Node/CommonJS
-        module.exports = factory( require('jquery'), require('datatables') );
+        module.exports = function ( $dt ) {
+            if ( $dt === undefined ) {
+                $dt = require('datatables')();
+            }
+            if ( $dt.fn === undefined || $dt.fn.DataTable === undefined ) {
+                $dt = require('datatables')($dt);
+            }
+            return factory( $dt );
+        }
     }
     else if ( jQuery ) {
         // Otherwise simply initialise as normal, stopping multiple evaluation
-        factory( jQuery, jQuery.fn.dataTable );
+        factory( jQuery );
     }
 }(function ($, DataTable) {
     "use strict";
@@ -107,7 +115,7 @@
                             'aria-controls': settings.sTableId,
                             'tabindex': settings.iTabIndex,
                             'id': idx === 0 && typeof button === 'string' ?
-                            settings.sTableId +'_'+ button :
+                                settings.sTableId +'_'+ button :
                                 null
                         } )
                             .append( $('<a>', {

@@ -1,8 +1,11 @@
 {
   "name": "datatables-bootstrap3-plugin",
   "description": "jQuery DataTables plugin and Bootstrap 3 integration.",
-  "author": "misantron <misantron@gmail.com>",
   "version": "0.4.0",
+  "author": {
+    "name": "Aleksandr Ivanov",
+    "email": "misantron@gmail.com"
+  },
   "keywords": [
     "javascript",
     "datatables",
@@ -19,9 +22,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "~3.3",
-    "font-awesome": "~4.3",
-    "datatables": "~1.10",
+    "bootstrap": "^3.3",
+    "font-awesome": "^4.3",
+    "datatables": "^1.10",
     "jquery": "~1.11"
   },
   "engines": {
