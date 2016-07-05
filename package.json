@@ -1,7 +1,7 @@
 {
   "name": "datatables-bootstrap3-plugin",
   "description": "jQuery DataTables plugin and Bootstrap 3 integration.",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "author": {
     "name": "Aleksandr Ivanov",
     "email": "misantron@gmail.com"
