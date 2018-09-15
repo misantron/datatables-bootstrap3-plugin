@@ -1,7 +1,8 @@
 # DataTables and Bootstrap integration
 
-![Bower Version](http://img.shields.io/bower/v/datatables-bootstrap3-plugin.svg?style=flat-square)
 [![NPM Version](http://img.shields.io/npm/v/datatables-bootstrap3-plugin.svg?style=flat-square)](https://www.npmjs.com/package/datatables-bootstrap3-plugin)
+[![NPM Download](http://img.shields.io/npm/dm/datatables-bootstrap3-plugin.svg?style=flat-square)](https://www.npmjs.com/package/datatables-bootstrap3-plugin)
+[![NPM License](http://img.shields.io/npm/l/datatables-bootstrap3-plugin.svg?style=flat-square)](https://www.npmjs.com/package/datatables-bootstrap3-plugin)
 [![GitHub Version](http://img.shields.io/github/release/misantron/datatables-bootstrap3-plugin.svg?style=flat-square)](https://github.com/misantron/datatables-bootstrap3-plugin)
 
 jQuery DataTables plugin and Bootstrap 3 integration.
