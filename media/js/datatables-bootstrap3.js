@@ -1,7 +1,7 @@
 
 /**
- * DataTables integration for Bootstrap 3. This requires Bootstrap 3 and
- * DataTables 1.10 or newer.
+ * DataTables integration for Bootstrap 3.
+ * This requires Bootstrap 3 and DataTables 1.10 or newer.
  */
 (function (factory) {
     if ( typeof define === 'function' && define.amd ) {

@@ -7,9 +7,9 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3",
-    "font-awesome": "^4.3",
+    "font-awesome": "^4.7",
     "datatables": "^1.10",
-    "jquery": "^1.11"
+    "jquery": "^3.3"
   },
   "description": "jQuery DataTables plugin and Bootstrap 3 integration.",
   "license": "MIT",

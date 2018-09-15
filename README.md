@@ -1,4 +1,4 @@
-# DataTables and Bootstrap integration
+# jQuery DataTables and Bootstrap 3 integration
 
 [![NPM Version](http://img.shields.io/npm/v/datatables-bootstrap3-plugin.svg?style=flat-square)](https://www.npmjs.com/package/datatables-bootstrap3-plugin)
 [![NPM Download](http://img.shields.io/npm/dm/datatables-bootstrap3-plugin.svg?style=flat-square)](https://www.npmjs.com/package/datatables-bootstrap3-plugin)
@@ -9,9 +9,11 @@ jQuery DataTables plugin and Bootstrap 3 integration.
 
 ## Installing
 
-**NPM**  `npm install --save datatables-bootstrap3-plugin`
+You can easily install the latest version via [npm](https://www.npmjs.com/), [yarn](https://yarnpkg.com) or [bower](https://bower.io/):
 
-**Bower**  `bower install --save datatables-bootstrap3-plugin`
+`$ npm install --save datatables-bootstrap3-plugin`  
+`$ yarn add datatables-bootstrap3-plugin`  
+`$ bower install --save datatables-bootstrap3-plugin`
 
 Include library and style files directly to your HTML page:
 
@@ -22,10 +24,10 @@ Include library and style files directly to your HTML page:
 
 ## External dependencies:
 
-* Bootstrap 3.3.*
-* Font Awesome 4.*
-* jQuery DataTables 1.10.*
-* jQuery 1.*
+* Twitter Bootstrap 3.3.*
+* Font Awesome icon toolkit 4.7.*
+* jQuery DataTables plugin 1.10.*
+* jQuery library 3.3.*
 
 ## Fork changes
 
